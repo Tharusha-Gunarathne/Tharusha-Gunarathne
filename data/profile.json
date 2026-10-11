@@ -11,7 +11,7 @@
   "sections": [
     {
       "key": "Host",
-      "value": "UCSC · Colombo",
+      "value": "Tharusha Gunarathne",
       "items": []
     },
     {
@@ -19,8 +19,8 @@
       "value": "CS Undergraduate",
       "items": [
         {
-          "key": "Year",
-          "value": "2nd year"
+          "key": "University",
+          "value": "UCSC · Colombo"
         },
         {
           "key": "Location",

@@ -47,6 +47,7 @@ type theme struct {
 	prompt                     string
 	portrait                   string // solid portrait colour
 	portraitW                  string // portrait font-weight
+	portraitStroke             string // portrait outline width ("" = none); thickens thin glyphs on light bg
 }
 
 var themes = map[string]theme{
@@ -57,10 +58,10 @@ var themes = map[string]theme{
 		prompt: "#57ab5a", portrait: "#ffffff", portraitW: "400",
 	},
 	"light": {
-		win: "#ffffff", bar: "#f6f8fa", border: "#d0d7de", title: "#57606a",
+		win: "#e6edf5", bar: "#f6f8fa", border: "#d0d7de", title: "#57606a",
 		name: "#cf222e", host: "#0969da", topkey: "#8250df", subkey: "#9a6700",
 		arrow: "#1b7c83", branch: "#1b7c83", value: "#24292f", dash: "#d8dee4",
-		prompt: "#1a7f37", portrait: "#000000", portraitW: "700",
+		prompt: "#1a7f37", portrait: "#000000", portraitW: "400", portraitStroke: "0.2",
 	},
 }
 
@@ -231,7 +232,11 @@ func Render(themeName string, d Data) string {
 			py += pLH
 		}
 	}
-	p(fmt.Sprintf(`<g class="fade" fill="%s" font-weight="%s" font-size="%g">`, t.portrait, t.portraitW, pFS))
+	outline := ""
+	if t.portraitStroke != "" {
+		outline = fmt.Sprintf(` stroke="%s" stroke-width="%s" stroke-linejoin="round"`, t.portrait, t.portraitStroke)
+	}
+	p(fmt.Sprintf(`<g class="fade" fill="%s" font-weight="%s"%s font-size="%g">`, t.portrait, t.portraitW, outline, pFS))
 	drawPortrait()
 	p(`</g>`)
 
