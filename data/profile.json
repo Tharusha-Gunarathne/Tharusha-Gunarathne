@@ -3,7 +3,7 @@
   "displayName": "Tharusha Gunarathne",
   "host": "nixos",
   "title": "CS Undergraduate",
-  "email": "YOUR_EMAIL@example.com",
+  "email": "tharusha1205@gmail.com",
   "bio": [
     "CS undergrad building practical AI + IoT",
     "systems for real Sri Lankan problems."
@@ -74,7 +74,7 @@
         },
         {
           "key": "LinkedIn",
-          "value": "in/YOUR_LINKEDIN"
+          "value": "in/tharusha-gunarathne"
         }
       ]
     }
@@ -85,8 +85,8 @@
       "url": "https://github.com/Tharusha-Gunarathne"
     },
     "linkedin": {
-      "label": "in/YOUR_LINKEDIN",
-      "url": "https://www.linkedin.com/in/YOUR_LINKEDIN"
+      "label": "in/tharusha-gunarathne",
+      "url": "https://www.linkedin.com/in/tharusha-gunarathne/"
     }
   }
 }
