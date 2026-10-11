@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="956" height="577" viewBox="0 0 956 577" font-family="'SFMono-Regular','SF Mono',Consolas,'Liberation Mono',Menlo,monospace" role="img" aria-label="tharusha@nixos — git fetch profile card">
+<style>@keyframes blink{50%{opacity:0}}.cur{animation:blink 1.1s step-end infinite}@keyframes fin{from{opacity:0}to{opacity:1}}.fade{animation:fin .8s ease both}.tk{fill:#8250df;font-weight:700}.sk{fill:#9a6700}.ar{fill:#1b7c83}.br{fill:#1b7c83}.vl{fill:#24292f}text,tspan{white-space:pre}</style>
+<rect x="0.5" y="0.5" width="955" height="576" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+<text x="30" y="45.0" font-size="15"><tspan fill="#1b7c83" font-weight="700">~ </tspan><tspan fill="#1a7f37" font-weight="700">❯ </tspan><tspan fill="#9a6700">git</tspan><tspan fill="#24292f"> fetch</tspan></text>
+<g class="fade" fill="#000000" font-size="12">
+<text x="30" y="98.1">                          .::.::::..                        </text>
+<text x="30" y="114.1">                      :::::......::..:.                     </text>
+<text x="30" y="130.1">                   .::.:.:: .......  ....                   </text>
+<text x="30" y="146.1">                 .:-:. .   ..........  .::                  </text>
+<text x="30" y="162.1">               .:...    .  .  . ..  ..   ..                 </text>
+<text x="30" y="178.1">               ::..::. .:.      .         ..                </text>
+<text x="30" y="194.1">               .......-====-:--:...        ..               </text>
+<text x="30" y="210.1">                .... -*###****++=--:.      .                </text>
+<text x="30" y="226.1">                 .  :*########*+=-----.    .                </text>
+<text x="30" y="242.1">                 .. +*==::-=*=:.:.:::==. :.                 </text>
+<text x="30" y="258.1">                  .-*#++=:-+%+::=----=+-:+-                 </text>
+<text x="30" y="274.1">                  :**%%%###%%*==+***+=+-:--                 </text>
+<text x="30" y="290.1">                  .**%%%%%%**---+**+===:==                  </text>
+<text x="30" y="306.1">                   -+#%%#*+:::..:-++=-:.:.                  </text>
+<text x="30" y="322.1">                    :+##-.-+++-:...--:.                     </text>
+<text x="30" y="338.1">                     .=+:=#*=--==:.....                     </text>
+<text x="30" y="354.1">                      .:.:+*-:--:.  .--                     </text>
+<text x="30" y="370.1">                     ..=+..:...   .:-=- .                   </text>
+<text x="30" y="386.1">                   .::.:*#+-::..::----. ...                 </text>
+<text x="30" y="402.1">                .:::::.:.+###*+=----:... .....              </text>
+<text x="30" y="418.1">          ...:..:::::: .:.-+*++=---::..  ...........        </text>
+<text x="30" y="434.1">    ...::::....:::::::..::.-++++++=-:.  .................   </text>
+<text x="30" y="450.1">..::::::.........:::::. :. .:=***=:     ....................</text>
+<text x="30" y="466.1">:.::..........:...::::.       -+-      ......... ...........</text>
+<text x="30" y="482.1">:..:..........:....:::.  :. .. .    .  . ......  ...........</text>
+<text x="30" y="498.1">::.:................::.  .:...    ... ......... .......... .</text>
+<text x="30" y="514.0">::.:.................:.  .:... .....  ........ ..........  .</text>
+<text x="30" y="530.0">:....................:.  .:.  ....:. .. ...... .... .....  .</text>
+</g>
+<g font-size="15">
+<text x="509" y="82.0" font-weight="700"><tspan fill="#cf222e">tharusha</tspan><tspan fill="#57606a">@</tspan><tspan fill="#0969da">nixos</tspan></text>
+<rect class="cur" x="646.2" y="70.0" width="8.2" height="14.0" fill="#cf222e"/>
+<text x="509" y="105.0" fill="#d8dee4">────────────────────────────</text>
+<text x="509" y="131.6" font-size="13.5" fill="#24292f">CS undergrad building practical AI + IoT</text>
+<text x="509" y="150.6" font-size="13.5" fill="#24292f">systems for real Sri Lankan problems.</text>
+<text x="509" y="185.1"><tspan class="tk">Host</tspan><tspan class="ar"> → </tspan><tspan class="vl">UCSC · Colombo</tspan></text>
+<text x="509" y="208.1"><tspan class="tk">OS</tspan><tspan class="ar"> → </tspan><tspan class="vl">CS Undergraduate</tspan></text>
+<text x="509" y="231.1"><tspan class="br"> ├ </tspan><tspan class="sk">Year</tspan><tspan class="ar"> → </tspan><tspan class="vl">2nd year</tspan></text>
+<text x="509" y="254.1"><tspan class="br"> └ </tspan><tspan class="sk">Location</tspan><tspan class="ar"> → </tspan><tspan class="vl">Sri Lanka</tspan></text>
+<text x="509" y="300.1"><tspan class="tk">DEV</tspan><tspan class="ar"> → </tspan><tspan class="vl">Stack</tspan></text>
+<text x="509" y="323.1"><tspan class="br"> ├ </tspan><tspan class="sk">Languages</tspan><tspan class="ar"> → </tspan><tspan class="vl">Python · TypeScript · JS · Nix</tspan></text>
+<text x="509" y="346.1"><tspan class="br"> ├ </tspan><tspan class="sk">Web/Mobile</tspan><tspan class="ar"> → </tspan><tspan class="vl">Next.js · React Native · Node</tspan></text>
+<text x="509" y="369.1"><tspan class="br"> ├ </tspan><tspan class="sk">Backend</tspan><tspan class="ar"> → </tspan><tspan class="vl">Supabase · Firebase · n8n</tspan></text>
+<text x="509" y="392.1"><tspan class="br"> └ </tspan><tspan class="sk">AI/IoT</tspan><tspan class="ar"> → </tspan><tspan class="vl">YOLO · Raspberry Pi · LLMs</tspan></text>
+<text x="509" y="438.1"><tspan class="tk">STATS</tspan><tspan class="ar"> → </tspan><tspan class="vl">Past Year</tspan></text>
+<text x="509" y="461.1"><tspan class="br"> └ </tspan><tspan class="vl">1,038</tspan><tspan class="sk"> commits</tspan><tspan class="br">  ·  </tspan><tspan class="vl">27</tspan><tspan class="sk"> PRs</tspan><tspan class="br">  ·  </tspan><tspan class="vl">0</tspan><tspan class="sk"> stars</tspan></text>
+<text x="509" y="507.1"><tspan class="tk">WWW</tspan><tspan class="ar"> → </tspan><tspan class="vl">Links</tspan></text>
+<text x="509" y="530.1"><tspan class="br"> ├ </tspan><tspan class="sk">GitHub</tspan><tspan class="ar"> → </tspan><tspan class="vl">Tharusha-Gunarathne</tspan></text>
+<text x="509" y="553.1"><tspan class="br"> └ </tspan><tspan class="sk">LinkedIn</tspan><tspan class="ar"> → </tspan><tspan class="vl">in/tharusha-gunarathne</tspan></text>
+</g>
+</svg>
+
