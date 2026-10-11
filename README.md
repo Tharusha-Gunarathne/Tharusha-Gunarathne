@@ -13,3 +13,4 @@
   &nbsp;
   <a href="mailto:YOUR_EMAIL@example.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn_email_dark.svg" /><img alt="Email" src="./assets/btn_email_light.svg" height="32" /></picture></a>
 </p>
+
