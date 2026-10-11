@@ -1,0 +1,92 @@
+{
+  "name": "tharusha",
+  "displayName": "Tharusha Gunarathne",
+  "host": "nixos",
+  "title": "CS Undergraduate",
+  "email": "YOUR_EMAIL@example.com",
+  "bio": [
+    "CS undergrad building practical AI + IoT",
+    "systems for real Sri Lankan problems."
+  ],
+  "sections": [
+    {
+      "key": "Host",
+      "value": "UCSC · Colombo",
+      "items": []
+    },
+    {
+      "key": "OS",
+      "value": "CS Undergraduate",
+      "items": [
+        {
+          "key": "Year",
+          "value": "2nd year"
+        },
+        {
+          "key": "Location",
+          "value": "Sri Lanka"
+        }
+      ]
+    },
+    {
+      "blank": true
+    },
+    {
+      "key": "DEV",
+      "value": "Stack",
+      "items": [
+        {
+          "key": "Languages",
+          "value": "Python · TypeScript · JS · Nix"
+        },
+        {
+          "key": "Web/Mobile",
+          "value": "Next.js · React Native · Node"
+        },
+        {
+          "key": "Backend",
+          "value": "Supabase · Firebase · n8n"
+        },
+        {
+          "key": "AI/IoT",
+          "value": "YOLO · Raspberry Pi · LLMs"
+        }
+      ]
+    },
+    {
+      "blank": true
+    },
+    {
+      "key": "STATS",
+      "value": "Past Year",
+      "stats": true
+    },
+    {
+      "blank": true
+    },
+    {
+      "key": "WWW",
+      "value": "Links",
+      "items": [
+        {
+          "key": "GitHub",
+          "value": "Tharusha-Gunarathne"
+        },
+        {
+          "key": "LinkedIn",
+          "value": "in/YOUR_LINKEDIN"
+        }
+      ]
+    }
+  ],
+  "links": {
+    "github": {
+      "label": "Tharusha-Gunarathne",
+      "url": "https://github.com/Tharusha-Gunarathne"
+    },
+    "linkedin": {
+      "label": "in/YOUR_LINKEDIN",
+      "url": "https://www.linkedin.com/in/YOUR_LINKEDIN"
+    }
+  }
+}
