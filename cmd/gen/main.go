@@ -62,6 +62,10 @@ func main() {
 	if err := card.WriteAll("assets", cardData); err != nil {
 		log.Fatalf("Error writing profile card: %v", err)
 	}
+	version := strconv.FormatInt(time.Now().Unix(), 10)
+	if err := card.WriteVersioned("assets", version); err != nil {
+		log.Fatalf("Error writing versioned cards: %v", err)
+	}
 	if err := card.WriteButtons("assets"); err != nil {
 		log.Fatalf("Error writing connect buttons: %v", err)
 	}
@@ -78,7 +82,7 @@ func main() {
 
 	data := TemplateData{
 		Posts: blogPosts, ShowPosts: showPosts, Github: stats,
-		Profile: prof, Version: strconv.FormatInt(time.Now().Unix(), 10),
+		Profile: prof, Version: version,
 	}
 	if err := tmpl.Execute(out, data); err != nil {
 		log.Fatalf("Error executing template: %v", err)
