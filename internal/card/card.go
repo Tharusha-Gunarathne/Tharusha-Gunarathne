@@ -30,7 +30,7 @@ type Stats struct {
 const (
 	padX     = 30.0
 	contentY = 30.0
-	pFS, pLH = 12.0, 16.0 // portrait font-size / line-height
+	pFS, pLH = 12.0, 16.0 // portrait font-size / line-height (raise to make the portrait taller)
 	pCW      = 7.22       // portrait char advance
 	iFS, iLH = 15.0, 23.0 // info font-size / line-height
 	iCW      = 9.0        // info char advance
@@ -46,6 +46,7 @@ type theme struct {
 	arrow, branch, value, dash string
 	prompt                     string
 	portrait                   string // solid portrait colour
+	portraitW                  string // portrait font-weight
 }
 
 var themes = map[string]theme{
@@ -53,13 +54,13 @@ var themes = map[string]theme{
 		win: "#0d1117", bar: "#161b22", border: "#30363d", title: "#7d8590",
 		name: "#f47067", host: "#6cb6ff", topkey: "#d2a8ff", subkey: "#e3b341",
 		arrow: "#56d4dd", branch: "#39929e", value: "#adbac7", dash: "#444c56",
-		prompt: "#57ab5a", portrait: "#ffffff",
+		prompt: "#57ab5a", portrait: "#ffffff", portraitW: "400",
 	},
 	"light": {
 		win: "#ffffff", bar: "#f6f8fa", border: "#d0d7de", title: "#57606a",
 		name: "#cf222e", host: "#0969da", topkey: "#8250df", subkey: "#9a6700",
 		arrow: "#1b7c83", branch: "#1b7c83", value: "#24292f", dash: "#d8dee4",
-		prompt: "#1a7f37", portrait: "#000000",
+		prompt: "#1a7f37", portrait: "#000000", portraitW: "700",
 	},
 }
 
@@ -230,7 +231,7 @@ func Render(themeName string, d Data) string {
 			py += pLH
 		}
 	}
-	p(fmt.Sprintf(`<g class="fade" fill="%s" font-size="%g">`, t.portrait, pFS))
+	p(fmt.Sprintf(`<g class="fade" fill="%s" font-weight="%s" font-size="%g">`, t.portrait, t.portraitW, pFS))
 	drawPortrait()
 	p(`</g>`)
 
