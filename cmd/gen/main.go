@@ -6,7 +6,9 @@ import (
 	"html/template"
 	"log"
 	"os"
+	"strconv"
 	"strings"
+	"time"
 
 	"github.com/Tharusha-Gunarathne/Tharusha-Gunarathne/internal/card"
 	"github.com/Tharusha-Gunarathne/Tharusha-Gunarathne/internal/github"
@@ -20,6 +22,7 @@ type TemplateData struct {
 	ShowPosts bool
 	Github    *github.Stats
 	Profile   profile.Profile
+	Version   string // cache-buster so GitHub refetches the card images
 }
 
 func main() {
@@ -75,7 +78,7 @@ func main() {
 
 	data := TemplateData{
 		Posts: blogPosts, ShowPosts: showPosts, Github: stats,
-		Profile: prof,
+		Profile: prof, Version: strconv.FormatInt(time.Now().Unix(), 10),
 	}
 	if err := tmpl.Execute(out, data); err != nil {
 		log.Fatalf("Error executing template: %v", err)
