@@ -21,7 +21,8 @@ type GraphQLResponse struct {
 	Data struct {
 		User struct {
 			Commits struct {
-				Total int `json:"totalCommitContributions"`
+				Total      int `json:"totalCommitContributions"`
+				Restricted int `json:"restrictedContributionsCount"` // private contributions, reported separately
 			} `json:"contributionsCollection"`
 			PullRequests struct {
 				Total int `json:"totalCount"`
@@ -56,6 +57,7 @@ func GetGithubStats(login string) (*Stats, error) {
 		user(login: "%s") {
 			contributionsCollection(from: "%s", to: "%s") {
 				totalCommitContributions
+				restrictedContributionsCount
 			}
 			pullRequests {
 				totalCount
@@ -106,7 +108,7 @@ func GetGithubStats(login string) (*Stats, error) {
 	}
 
 	return &Stats{
-		Commits:      graphQLResp.Data.User.Commits.Total,
+		Commits:      graphQLResp.Data.User.Commits.Total + graphQLResp.Data.User.Commits.Restricted,
 		PullRequests: graphQLResp.Data.User.PullRequests.Total,
 		Contributed:  graphQLResp.Data.User.Contributed.Total,
 		Stars:        totalStars,
