@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark_mode-1792356993.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/light_mode-1792356993.svg" />
-    <img alt="Tharusha Gunarathne — CS Undergraduate" src="./assets/light_mode-1792356993.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark_mode-1792962124.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light_mode-1792962124.svg" />
+    <img alt="Tharusha Gunarathne — CS Undergraduate" src="./assets/light_mode-1792962124.svg" />
   </picture>
 </p>
 
